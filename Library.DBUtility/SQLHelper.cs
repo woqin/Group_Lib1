@@ -34,6 +34,24 @@ namespace Library.DBUtility
                 conn.Close();
             }
         }
+        public static SqlDataReader GetReader(string sql)
+        {
+            SqlConnection conn = new SqlConnection(connString);
+            SqlCommand cmd=new SqlCommand(sql,conn);
+            try
+            {
+                conn.Open();
+                return cmd.ExecuteReader(System.Data.CommandBehavior.CloseConnection);
+            }
+            catch (Exception ex)
+            {
+                conn.Close();
+                //将异常信息写入日志
+                string errorInfo = "调用public static SqlDataReader GetReader(string sql)方法时发生错误：" + ex.Message;
+                WriteLog(errorInfo);
+                throw new Exception(errorInfo);
+            }
+        }
         #endregion
 
         #region 其他方法
