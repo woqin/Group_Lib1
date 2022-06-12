@@ -1,0 +1,6 @@
+D:\MyProject\Group_Lib1\Library.DBUtility\bin\Debug\Library.DBUtility.dll
+D:\MyProject\Group_Lib1\Library.DBUtility\bin\Debug\Library.DBUtility.pdb
+D:\MyProject\Group_Lib1\Library.DBUtility\obj\Debug\Library.DBUtility.csproj.AssemblyReference.cache
+D:\MyProject\Group_Lib1\Library.DBUtility\obj\Debug\Library.DBUtility.csproj.CoreCompileInputs.cache
+D:\MyProject\Group_Lib1\Library.DBUtility\obj\Debug\Library.DBUtility.dll
+D:\MyProject\Group_Lib1\Library.DBUtility\obj\Debug\Library.DBUtility.pdb

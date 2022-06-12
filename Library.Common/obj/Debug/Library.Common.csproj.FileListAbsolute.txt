@@ -1,0 +1,6 @@
+D:\MyProject\Group_Lib1\Library.Common\bin\Debug\Library.Common.dll
+D:\MyProject\Group_Lib1\Library.Common\bin\Debug\Library.Common.pdb
+D:\MyProject\Group_Lib1\Library.Common\obj\Debug\Library.Common.csproj.AssemblyReference.cache
+D:\MyProject\Group_Lib1\Library.Common\obj\Debug\Library.Common.csproj.CoreCompileInputs.cache
+D:\MyProject\Group_Lib1\Library.Common\obj\Debug\Library.Common.dll
+D:\MyProject\Group_Lib1\Library.Common\obj\Debug\Library.Common.pdb
