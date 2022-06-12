@@ -1,0 +1,27 @@
+2015/9/6 14:31:35    用户 'sa' 登录失败。
+2015/9/6 14:35:30    用户 'sa' 登录失败。
+2015/9/6 14:36:14    列名 'AdminId' 无效。
+列名 'LoginPwd' 无效。
+列名 'AdminName' 无效。
+列名 'StatusId' 无效。
+列名 'RoleId' 无效。
+2015/9/7 9:35:52    列名 'PubisherId' 无效。
+2015/9/8 10:01:34    列名 'PublisherId' 不明确。
+2015/9/8 10:04:44    找不到存储过程 'usp_AddBook'。
+2015/9/8 13:22:45    '@BookName' 附近有语法错误。
+2015/9/9 9:23:31    为过程或函数 usp_EditBook 指定了过多的参数。
+2015/9/9 9:47:14    必须声明标量变量 "@BookId"。
+2015/9/11 19:37:29    过程或函数 'usp_QueryBookByReadingCard' 需要参数 '@ReadingCard'，但未提供该参数。
+2015/9/12 14:19:12    调用(string procedureName, List<SqlParameter[]> paramArray)方法时发生错误，具体信息：找不到存储过程 'usp_ReturnBook'。
+2015/9/12 17:56:50    调用(string procedureName, List<SqlParameter[]> paramArray)方法时发生错误，具体信息：INSERT 语句与 FOREIGN KEY 约束"FK__ReturnBoo__Borro__2F10007B"冲突。该冲突发生于数据库"LibraryDB"，表"dbo.BorrowDetail", column 'BorrowDetailId'。
+EXECUTE 后的事务计数指示 BEGIN 和 COMMIT 语句的数目不匹配。上一计数 = 1，当前计数 = 0。
+语句已终止。
+2015/9/12 17:58:18    调用(string procedureName, List<SqlParameter[]> paramArray)方法时发生错误，具体信息：INSERT 语句与 FOREIGN KEY 约束"FK__ReturnBoo__Borro__2F10007B"冲突。该冲突发生于数据库"LibraryDB"，表"dbo.BorrowDetail", column 'BorrowDetailId'。
+EXECUTE 后的事务计数指示 BEGIN 和 COMMIT 语句的数目不匹配。上一计数 = 1，当前计数 = 0。
+语句已终止。
+2015/9/14 11:45:23    列名 'PhoneNumber' 无效。
+列名 'ReaderAddress' 无效。
+2015/9/14 11:53:39    列名 'PostCodeReaderId' 无效。
+2015/9/14 12:01:59    列名 'IDCard' 无效。
+2015/9/30 22:09:03    DELETE 语句与 REFERENCE 约束"FK__BorrowDet__BookI__29572725"冲突。该冲突发生于数据库"LibraryDB"，表"dbo.BorrowDetail", column 'BookId'。
+语句已终止。
