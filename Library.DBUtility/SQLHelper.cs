@@ -28,6 +28,8 @@ namespace Library.DBUtility
             {
                 //将异常信息写入日志
                 string errorInfo = "调用public static int Update(string sql)方法时发生错误：" + ex.Message;
+                WriteLog(errorInfo);
+                throw new Exception(errorInfo);
             }
             finally
             {
